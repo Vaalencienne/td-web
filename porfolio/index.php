@@ -129,31 +129,17 @@
       </div>
 <!-- Page Contact -->
     <span id="contact"></span>
-    <div class="contact">
-      <h2>Formulaire de Contact :</h2>
-      <form name="mon-formulaire1" action="page-envoi.html" method="get">
-        <p>
-            Votre prénom :<br/>
-            <input type="text" name="prenom" value="" />
-        </p>
-        <p>
-            Votre nom :<br />
-            <input type="text" name="nom" value="" />
-        </p>
-        <p>
-            Votre adresse mail :<br />
-            <input type="text" name="mail" value="" />      
-        </p>
-        <p>
-            Votre message :<br />
-            <textarea name="le-message" rows="6" cols="40">Votre message.</textarea>
-        </p>
-        <p>
-            <input type="submit" value="Envoyer" />
-            <input type="reset" value="Annuler" />
-        </p>
-      </form>
-    </div>
+    <form class="form">
+      <p class="t_contact">contactez moi</p>
+        <p type="Name:"><input placeholder="Ecrit ton nom"></input></p>
+        <p type="Email:"><input placeholder="Votre adresse mail"></input></p>
+        <p type="Message:"><input placeholder="Votre message."></input></p>
+      <button class="bt_contact">Send Message</button>
+      <div class="mail">
+        <span class="fa fa-phone"></span>06 48 61 29 85
+        <span class="fa fa-envelope-o"></span> valpicot.14@gmail.com
+      </div>
+    </form>
 
     <div class="social">
       <button class="social-btn1">
