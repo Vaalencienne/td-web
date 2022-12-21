@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'); /* (Pour barre compétence) */
+/* Acceuil */
+body{
+    background-image: url(images/fond2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: repeating-linear-gradient;
+    background-position: fixed center center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    margin-bottom: 100px;
+    /*position: fixed;*/
+}
+
+nav p{
+    color: rgb(95, 158, 218);
+    font-size: 18pt;
+}
+
+nav ul{
+    list-style:none;
+    font-size: 14pt;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(95, 158, 218);
+    font-size: 16pt;
+
+}
+
+h1{
+	text-align:center;
+	font-size: 50px;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 75px;
+}
+
+/* A Popos */
+.photo{
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.moi{
+    width: 252px;
+    height: 336px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.textepres{
+    text-align: center;
+    display: table-cell;
+    padding-top: 100px;
+}
+.cv{
+    border: 1px solid rgb(88, 87, 87);
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(95, 158, 218);
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+}
+.pdf{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    align-items: center;
+}
+/*.titre{
+    text-align: center;
+    font-size: 40px;
+}*/
+
+/*.presentation{
+    text-align: center;
+    font-size: 20px;
+}*/
+
+/* Compétences */
+
+p {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.barre {
+    background-color: rgb(180, 174, 174);
+    width: 500px;
+    height: 33px;
+    border-radius: 15px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.skill {
+    background-color: rgb(84, 190, 240);
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    animation: animateLeft 1s ease-out;
+    height: 33px;
+}
+
+@keyframes animateLeft {
+    from {
+      transform: translateX(-70%);
+    }
+  }
+  
+  .skill-container .skill.skill-level-70::before {
+    width: 70%
+  }
+  .skill-container .skill.skill-level-40::before {
+    width: 40%
+  }
+  .skill-container .skill.skill-level-100::before {
+    width: 100%
+  }
+
+
+.Competence{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}  
+
+.html {
+    width: 60%;
+}
+.css {
+    width: 40%;
+}
+.php {
+    width: 10%;
+}
+.sql {
+    width: 60%;
+}
+.réseau {
+    width: 30%;
+}
+
+.langues{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.anglais {
+    width: 40%;
+}
+.espagnol {
+    width: 30%;
+}
+
+.Certification{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.microsoft {
+    width: 70%;
+}
+/*Page Expérience */
+.container{
+    margin-bottom: 50px;
+}
+.container ul {
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    list-style: none;
+}
+.container ul li {
+    position: relative;
+    margin-left: 65px ;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 6px;
+    width: 250px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+}
+.container ul li:not(:first-child) {
+    margin-top: 60px;
+}
+.container ul li > span {
+    width: 2px;
+    height: 100%;
+    background: rgba(63, 61, 61, 0.2);
+    left: -30px;
+    top: 0;
+    position: absolute;
+}
+.container ul li > span:before, .container ul li > span:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    background: #86b7e7;
+    left: -5px;
+    top: 0;
+}
+.container ul li span:after {
+    top: 100%;
+}
+.container ul li > div {
+    margin-left: 10px;  
+}
+.container div .title, .container div .type {
+    font-weight: 600;
+    font-size: 12px;
+}
+.container div .info {
+    font-weight: 300;
+}
+.container div > div {
+    margin-top: 5px;
+}
+.container span.number {
+    height: 100%;
+}
+.container span.number span {
+    position: absolute;
+    font-size: 10px;
+    left: -35px;
+    font-weight: bold;
+}
+.container span.number span:first-child {
+    top: 0;
+}
+.container span.number span:last-child {
+    top: 100%;
+}
+
+/* Page Contact */
+
+.contact{
+    text-align: center;
+
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.social-btn1:hover {
+    background-color: #62a3e4;
+    box-shadow: 2px 4px #999999;
+  }
+.social-btn2:hover {
+    background-color: #929292;
+    box-shadow: 2px 4px #999999;
+  }
+.so{
+    color: white;
+}
+.social-btn1{
+    border: 1px solid #86b7e7;
+    background-color: #86b7e7;
+}
+.social-btn2{
+    border: 1px solid rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
+}
+.social{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.haut{
+    border: 1px solid rgb(95, 158, 218);
+    margin-left: 46%;
+    margin-right: 46%;
+    padding: 5px;
+    background-color: rgb(95, 158, 218);
+    border-radius: 5px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.btn_haut{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
