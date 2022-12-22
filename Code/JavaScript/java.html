@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<form id="userform">
+    <input type="text" id="nom" placeholder="Votre nom">
+    <input type="texte" id="prenom" placeholder="Votre prenom">
+    <input type="button" id="btValidation" value="Valider">
+</form>
+    <div id="unediv"></div>
+</body>
+<script>
+    //alert ('Hello world');
+    let update=function(){
+        let nom=document.forms[0].nom.value;
+        let prenom=document.forms[0].prenom.value;
+        let nomcomplet=nom +' '+ prenom; 
+    document.getElementById('unediv').innerHTML=nomcomplet;
+    return false;
+    };
+    //document.getElementById('userform').addEventListener('keyup,update')
+    document.getElementById('btValidation').addEventListener('click',update);
+</script>
+</html>

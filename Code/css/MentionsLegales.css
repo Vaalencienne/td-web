@@ -1,0 +1,30 @@
+body{
+	background-color: rgb(200, 205, 200);
+}
+
+h1{
+	color: red;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+h2{
+	color: blue;
+	text-decoration: underline;
+}
+
+br {
+   display: block;
+   margin: 10px 0;
+}
+
+p strong{
+	text-decoration: underline;
+}
+
+#pub{
+	font-weight: bold;
+	margin: 25px auto;
+	width: 200px;
+	display: block;
+}

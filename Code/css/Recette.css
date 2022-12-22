@@ -1,0 +1,53 @@
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+}
+
+.haut{
+    list-style:none;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	border-bottom: 1px solid #E2DFDF;
+	
+}
+
+h2{
+    color:white;
+    background-color: black;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+}
+
+.texte{
+    color:brown;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(117, 182, 224);
+    text-decoration: underline;
+}
+
+.material-symbols-outlined{
+    font-variation-settings: 'FILL' 0;
+    font-variation-settings: 'wght' 400;
+    font-variation-settings:'GRAD' 0;
+    font-variation-settings:'opsz' 100;
+    vertical-align: middle;
+}
+
+
+ol>li {
+    line-height: 50px;
+}

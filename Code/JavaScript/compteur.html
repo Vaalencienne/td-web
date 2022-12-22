@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Compteur</title>
+</head>
+<body>
+    <script> 
+        // Compteur de mots et de caractères
+        function compteur() {
+            var texte = document.getElementById('textarea').value;
+    
+            // On compte le nombre de mots
+            var nb_mots = texte.split(" ").length;
+    
+            // On compte le nombre de caractères
+            var nb_caracteres = texte.length;
+    
+            // On affiche le résultat
+            alert("Nombre de mots : " + nb_mots + "\nNombre de caractères : " + nb_caracteres);
+        }
+    </script>
+    
+    <textarea id="textarea" rows="4" cols="50"></textarea>
+    <button onclick="compteur()">Compter</button>
+</body>
+</html>

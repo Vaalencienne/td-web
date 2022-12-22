@@ -1,0 +1,25 @@
+h1 {
+
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+  
+p {
+  
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: sans-serif;
+} 
+thead th {
+  
+     background-color: #F7F4F3;
+     font-family: sans-serif;
+} 
+table { 
+    margin-top: 5%; margin: auto; text-align: center; border: medium rgb(224, 232, 230); border-collapse: collapse; width: 50%; } td { font-family: sans-serif; border: thin solid #dbd7d7; width: 50%; padding: 5px; text-align: center; background-color: #ffffff; 
+} 
+
+th {
+   background-color: #D7D3D2;
+   font-family: sans-serif;
+}
