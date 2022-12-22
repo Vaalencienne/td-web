@@ -200,7 +200,7 @@ p {
 /*Page Expérience */
 
 .container{
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 .container ul {
     text-align: center;
@@ -336,7 +336,8 @@ button:hover{
 .mail{
     content:'Hi';
     position:absolute;
-    bottom:-15px;right:-20px;
+    bottom:-15px;
+    right:-20px;
     background:#50505a;
     color:#fff;
     width:320px;
@@ -401,3 +402,5 @@ button {
     background-color: #4393e2;
     box-shadow: 2px 4px #999999;
 }
+
+

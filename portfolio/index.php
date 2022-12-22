@@ -20,7 +20,7 @@
             }
             echo '</ul>';
         ?>
-        </nav>
+        </nav>     
 
         <?php
             $data=yaml_parse_file("yaml/accueil.yaml");
@@ -134,7 +134,7 @@
         <p type="Name:"><input placeholder="Ecrit ton nom"></input></p>
         <p type="Email:"><input placeholder="Votre adresse mail"></input></p>
         <p type="Message:"><input placeholder="Votre message."></input></p>
-      <button class="bt_contact">Send Message</button>
+      <button class="bt_contact"><i class="fa-solid fa-share"></i>  Envoyer</button>
       <div class="mail">
         <span class="fa fa-phone"></span>06 48 61 29 85
         <span class="fa fa-envelope-o"></span> valpicot.14@gmail.com
